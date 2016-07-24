@@ -1,0 +1,58 @@
+
+html {
+  /* I looked this code up on w3school--http://www.w3schools.com/cssref/pr_class_cursor.asp */
+    cursor: crosshair
+}
+
+.target {
+  position: absolute;
+  background-image: url(images/bullsEye.png);
+  background-position: -126px -126px;
+  width: 120px;
+  height: 115px;
+  transition: ;
+}
+
+.scoreBoard{
+  background: mintcream;
+  border-radius: 20px;
+  height: 55px;
+  width:150px;
+  font-family:;
+  border: solid 2px black;
+  font-size: 50px;
+  text-align:center;
+  font-color: purple ;
+}
+
+.spinner{
+  transform: rotateY(360deg);
+  transition: .2s;
+}
+
+.spinner2{
+  transform: rotateY(360deg);
+  transition: .2s;
+}
+
+/* .wrapper {
+    text-align: center;
+} */
+
+button {
+    margin-top:300px;
+    margin-left:625px;
+    top: 50%;
+    height:70px;
+    width: 140px;
+    border-radius: 20px;
+    border: 2px solid purple;
+    background:mintcream;
+    font-family: 'Shadows Into Light', cursive;
+    font:bold;
+    font-size: 23px;
+}
+
+
+
+

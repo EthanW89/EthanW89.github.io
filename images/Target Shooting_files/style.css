@@ -1,0 +1,44 @@
+
+html {
+  /* I looked this code up on w3school--http://www.w3schools.com/cssref/pr_class_cursor.asp */
+    cursor: crosshair
+}
+
+.target {
+  position: absolute;
+  background-image: url(images/bullsEye.png);
+  background-position: -126px -126px;
+  width: 120px;
+  height: 115px;
+  transition: ;
+}
+
+.scoreBoard{
+  background: mintcream;
+  border-radius: 20px;
+  height: 300px;
+  width:160px;
+  font-family:;
+  border: solid 2px black;
+}
+
+.spinner{
+  transform: rotateY(360deg);
+  transition: .2s;
+}
+
+.spinner2{
+  transform: rotateY(360deg);
+  transition: .2s;
+}
+
+.scoreBoard{
+  font-family: font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+
+}
+
+
+
+
+
