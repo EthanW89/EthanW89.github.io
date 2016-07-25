@@ -6,11 +6,11 @@ html {
 
 .target {
   position: absolute;
-  background-image: url(images/bullsEye.png);
+  background-image: url(images/bullseye.png);
   background-position: -126px -126px;
   width: 120px;
   height: 115px;
-  transition: ;
+ /*  transition: ; */
 }
 
 .scoreBoard{
