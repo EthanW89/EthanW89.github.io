@@ -7,3 +7,7 @@ my user stories include:
 user must have a crosshair to aim with
 user must be able to shoot at target
 user must be able to know if target was hit
+
+MVP
+user must be able to shoot at target
+user hits must be registered

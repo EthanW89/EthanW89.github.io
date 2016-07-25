@@ -7,10 +7,11 @@ $( document ).ready(function() {
 
 // this set interval/randomizer function is based on the duckhunt exercise taking into account
 // the size of the target too keep it on the page
+
   setInterval(function() {
     $target.css("top", Math.random() * (window.innerHeight-115));
     $target.css("left", Math.random() * (window.innerWidth-120));
-  }, 1500)
+  }, 1500 )
 
 //this is a click function to interact with the target, animating it recording hits
 //as well as making the gunshot sound
