@@ -16,13 +16,13 @@ html {
 .scoreBoard{
   background: mintcream;
   border-radius: 20px;
-  height: 55px;
+  height: 60px;
   width:150px;
-  font-family:;
+  font-family:'Amatic SC', cursive;;
   border: solid 2px black;
   font-size: 50px;
   text-align:center;
-  font-color: purple ;
+  font-weight: bold ;
 }
 
 .spinner{

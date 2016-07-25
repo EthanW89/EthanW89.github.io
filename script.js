@@ -21,7 +21,7 @@ i = 0; i<10; i++
   sound.play();
   $target.toggleClass("spinner spinner2")
   $('.scoreBoard').text(hit += i)
-  //found out about code below from here https://api.jquery.com/event.stoppropagation/
+  //found out about code line below from here https://api.jquery.com/event.stoppropagation/
   event.stopPropagation();
 })
 
